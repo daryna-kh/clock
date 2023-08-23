@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(51deg in oklab,
+      oklch(70% 0.5 340) -24% -24%, oklch(90% 0.5 200) 115% 115%);
+}
+
+#date>span {
+  padding: 29px 50px;
+  border-radius: 70px;
+  background: oklch(14.69% 0.156 66.77 / 0.6);
+}
+
+#date,
+#date>span {
+  color: white;
+  font-size: 120px;
+  font-family: 'Roboto Mono', monospace;
+}
